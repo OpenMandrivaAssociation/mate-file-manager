@@ -117,3 +117,14 @@ mkdir -p %{buildroot}%{_localstatedir}/lib/gnome/desktop \
 %{_datadir}/gir-1.0/Caja-%{girmajor}.gir
 %doc %{_datadir}/gtk-doc/html/libcaja-extension
 
+
+
+%changelog
+* Thu Aug 02 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.4.0-1
++ Revision: 811606
+- new version 1.4.0
+
+* Fri Jun 01 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.2-1
++ Revision: 801825
+- imported package mate-file-manager
+
